@@ -1,15 +1,15 @@
+import { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { useState, useRef, useEffect } from 'react'
-import CircularProgress from '@mui/material/CircularProgress';
-import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
+import ReactMarkdown from 'react-markdown'
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function Home() {
 
   const [userInput, setUserInput] = useState("");
-  const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [messages, setMessages] = useState([
     {
       "message": "Hi there! How can I help?",
