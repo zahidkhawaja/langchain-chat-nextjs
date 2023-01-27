@@ -1,0 +1,22 @@
+{
+  "name": "langchain-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.4",
+    "@next/font": "13.1.1",
+    "next": "13.1.1",
+    "openai": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.4"
+  }
+}
